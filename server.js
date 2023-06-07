@@ -12,7 +12,7 @@ app.use(cors());
 // middleware
 app.use(express.json())
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://647b54161de38010e56b1144--grand-mousse-b5e685.netlify.app");
+  res.setHeader("Access-Control-Allow-Origin", "https://6480918ca00d0c07afe3c65a--clinquant-pudding-f9097b.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
